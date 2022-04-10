@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    width: fit-content;
+}
+
+.heading {
+    /* margin-top: 110px; */
+    margin-left: 8.5rem;
+    width: 278px;
+    height: 47px;
+    font-family: "PT Serif", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    display: inline-block;
+}
+
+.info {
+    float: right;
+    width: 50%;
+}
+
+.sub-heading {
+    margin-top: 38px;
+    width: 117px;
+    height: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+.para {
+    width: 439px;
+    height: 87px;    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+#team {
+    /* clear: both; */
+    margin-top: 85px;
+    margin-left: 9.5rem;
+    padding-right: 40%;
+    display: inline-block;
+    /* width: %; */
+    text-align: center;
+}
+
+.people {
+    margin-left: 19px;
+    margin-top: 52.4px;
+    width: 264px;
+    height: 383px;
+    display: inline-block;
+}
+
+.people>img {
+    float: left;
+    width: 238.72px;
+}
+
+.photo,
+.name {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    clear: left;
+    width: 128px;
+    height: 27px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+}
+
+.photo,
+.designation {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 15px;
+    float: right;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+}
+
+.columnDown {
+    transform: translateY(75px);
+    margin: 0 75px;
+}
+
+#footer {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1440px ){
+    #team {
+        padding: 0;
+        width: 80%;
+        margin-left: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .heading {
+        margin-left: 4.5rem;
+    }
+    
+    #team {
+        width: 100%;
+    }
+
+    .columnDown {
+        margin: 0 25px;
+    }
+}
+
+
+@media screen and (max-width: 890px) {
+    body {
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .heading {
+        margin-top: 71px;
+        margin-left: 2em;
+        margin-right: 85px;
+        width: 278px;
+        height: 47px;
+        font-family: "PT serif", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: -0.045em;
+    }
+
+    .info {
+        float: none;
+        margin: 4em;
+        margin-top: 45px;
+        margin-bottom: 20px;
+    }
+
+    .sub-heading {
+        margin-top: 38px;
+        margin-left: 12px;
+        width: 117px;
+        height: 27px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        text-transform: uppercase;
+    }
+
+    .para {
+        margin-top: 10px;
+        margin-left: 12px;
+        width: 333px;
+        height: 87px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    #team {
+        width: 80%;
+        text-align: center;
+
+    }
+
+    .people {
+        margin-left: 19px;
+        margin-top: 52.4px;
+        width: 156px;
+        height: 237px;
+        display: inline-block;
+    }
+
+    .people > img {
+        float: left;
+        width: 138.72px;
+    }
+
+    .photo,.name {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        padding-top: 10px;
+        clear: left;
+        width: 128px;
+        height: 18px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: left;
+    }
+    .photo, .designation {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 15px;
+        float: right;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 13px;
+        text-transform: uppercase;
+        writing-mode: vertical-rl;
+    }
+
+    #footer , a {
+        margin-top: 80px;
+        font-size: .5rem;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #team {
+        margin-left: 64px;
+        width: 60%;
+    }
+    .people {
+        width: 156px;
+        height: 237px;
+        margin-right: 32px;
+    }
+    .columnDown {
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width:425px) {
+    body {
+        margin: 0;
+    }
+    .heading, .info {
+        margin-left: 20px;
+    }
+
+    #team {
+        margin-left: 20px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .people {
+        margin-left: 0;
+    }
+}
